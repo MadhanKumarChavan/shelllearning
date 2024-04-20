@@ -3,12 +3,12 @@
 
 echo "please enter username::"
 
-read please enter username
+read -s please enter username
 
 
 echo "please enter password::"
 
-read please enter username
+read -s please enter username
 
-echo username=$username 
-echo password=$password
+echo username=$madhan
+echo password=$madhan
