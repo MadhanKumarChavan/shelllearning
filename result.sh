@@ -2,10 +2,9 @@
 #!/bin/bash
 
 num1=$1
-num2=$2
 
 if (num1 -gt 5 )
 then 
-echo num1m is high
+printecho  $1 is high
 else 
-echo num2 is low
+printecho $1 is low
