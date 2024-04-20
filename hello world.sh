@@ -1,6 +1,6 @@
 #!/bin/bash
 
 echo madhan
-raja=devops engineer
+raja=devopsengineer
 
 echo the person name is echo $raja
