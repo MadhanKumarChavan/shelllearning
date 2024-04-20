@@ -9,3 +9,6 @@ read please enter username
 echo "please enter password::"
 
 read please enter username
+
+echo username=$username 
+echo password=$password
