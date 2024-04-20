@@ -3,4 +3,4 @@
 echo madhan
 raja=devopsengineer
 
-echo the person name is echo $raja
+echo the person name is $raja
