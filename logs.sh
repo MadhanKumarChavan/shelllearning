@@ -2,7 +2,7 @@
 
 USERID=$(id -u) #to validate root user
 TIMESTAMP=$(date +%F-%H-%M-%S)
-echo $0
+SCRIPT_NAME$(echo $0 | cut -d "." -f1)
 
 
 if [ $USERID  -ne  0 ]
