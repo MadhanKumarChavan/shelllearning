@@ -8,11 +8,10 @@
 # read -s num2
 
 a=$num1
-b=$num2
 
 if [ $a -gt 100 ]
 then
     echo $a is greater
 else
-    echo $b is greater
+    echo $b is lower
 fi
