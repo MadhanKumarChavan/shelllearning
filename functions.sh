@@ -2,6 +2,7 @@
 
 USERID=$[ id -u ]
 if [ $USERID -ne 0 ]
+then
   echo "go with sudo access"
   exit 1
 else
@@ -10,6 +11,7 @@ fi
 
 VALIDATE(){
 if [ $? -ne 0 ]
+then
    echo "script failed"
    exit 1
 else
