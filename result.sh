@@ -4,8 +4,8 @@
 num1=$1
 num2=$2
 
-add=$($num1+$num2)
-sub=$($num1-$num2)
+add=$(($num1+$num2))
+sub=$(($num1-$num2))
 
-echo sum of two number is $add
-echo sub of two number is $sub
+echo sum of $num1 and $num2:$add
+echo sub of $num1 and $num2:$sub
