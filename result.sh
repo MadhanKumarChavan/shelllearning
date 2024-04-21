@@ -2,9 +2,10 @@
 #!/bin/bash
 
 num1=$1
+num2=$2
 
-if (num1 -gt 5 )
-then 
-printecho  $1 is high
-else 
-printecho $1 is low
+add=(($num1+$num2))
+sub=(($num1-$num2))
+
+echo sum of two number is $add
+echo sub of two number is $sub
