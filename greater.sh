@@ -10,7 +10,7 @@
 a=$num1
 b=$num2
 
-if [ $a -gt $b ]
+if [ $a -gt 100 ]
 then
     echo $a is greater
 else
