@@ -10,9 +10,9 @@
 a=$num1
 b=$num2
 
-if [ $num1 -gt $num2 ]
+if [ $a -gt $b ]
 then
-    echo $num1 is greater
+    echo $a is greater
 else
-    echo $num2 is greater
+    echo $b is greater
 fi
