@@ -1,6 +1,9 @@
 #!/bin/bash
 
 USERID=$[ id -u ]
+TIMESTAMP=$(date +%F-%H-%M-%S)
+SCRIPT_NAME=$($0 | cut -d "." -f1)
+LOGFILE=/tmp/$SCRIPT_NAME-$TIMESTAMP-$USERID.log
 if [ $USERID -ne 0 ]
 then
   echo "go with sudo access"
