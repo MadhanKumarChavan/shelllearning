@@ -4,7 +4,7 @@
 num1=$1
 num2=$2
 
-add=(($num1+$num2))
+add=($num1+$num2)
 sub=(($num1-$num2))
 
 echo sum of two number is $add
