@@ -3,7 +3,7 @@
 USERID=$(id -u)
 
 if [ $USERID is -nq  0 ]
-
+then
 echo please go with root acess
  exit 1
 
