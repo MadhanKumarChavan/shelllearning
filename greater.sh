@@ -13,5 +13,5 @@ if [ $a -gt 100 ]
 then
     echo $a is greater
 else
-    echo $b is lower
+    echo $a is lower
 fi
