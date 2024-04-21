@@ -7,7 +7,7 @@ echo name of script: $0
 echo home dir: $HOME
 echo user name: $USER
 echo hostname: $hostname
-echo uname : $uname
+echo uname : $UNAME
 echo PID: $$
 
 echo list all :$LS
