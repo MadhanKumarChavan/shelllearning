@@ -9,7 +9,7 @@ else
 fi
 
 VALIDATE(){
-  if [ $? -ne 0 ]
+if [ $? -ne 0 ]
    echo "script failed"
    exit 1
 else
