@@ -3,9 +3,9 @@
 #shell script to find the greatest of two numbers
 
 echo "Enter Num1"
-read num1
+read -s num1
 echo "Enter Num2"
-read num2
+read -s num2
 
 if [ $num1 -gt $num2 ]
 then
