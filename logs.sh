@@ -2,13 +2,11 @@
 
 USERID=$(id -u)
 
-if [ $USERID is -ne  0 ]
+if [ $USERID  -ne  0 ]
 then
-echo please go with root acess
- exit 1
-
+echo "please go with root acess"
+   exit 1
 else
-
-echo root user
+echo "root user"
 
 fi
