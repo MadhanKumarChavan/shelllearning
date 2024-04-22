@@ -30,3 +30,6 @@ fi
 
  dnf install mysql -y &>>$LOGFILE
  VALIDATE $? "insatlling mysql"
+
+
+ 
