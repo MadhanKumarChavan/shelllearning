@@ -10,6 +10,6 @@ else
  exit 1
 fi
 
-FILES=$[ find . $SOURCE_dir -name ".log" -mtime +14 ]
+FILES=$[ find . $SOURCE_dir -name "*.log" -mtime +14 ]
 
 echo " file are $FILES
