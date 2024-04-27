@@ -14,6 +14,6 @@ FILES=$( find . $SOURCE_dir -name "*.log" -mtime +14 )
 
 while IFS= read -r line
 do
-  echo "zip file: $line"
-   mv $line /tmp/dellogs
+  echo "old file: $line"
+  zip archive.zip $line
 done <<< $FILES
