@@ -9,3 +9,5 @@ else
  echo " $SOURCE_dir file not found"
  exit 1
 fi
+
+find . $SOURCE_dir -name ".log" -mtime +14
