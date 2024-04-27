@@ -6,6 +6,6 @@ if [ -d $SOURCE_dir ]
 then
  echo " source file exist"
 else
- echo " source file not found"
+ echo " $SOURCE_dir file not found"
  exit 1
 fi
