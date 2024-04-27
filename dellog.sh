@@ -14,6 +14,6 @@ FILES=$( find . $SOURCE_dir -name "*.log" -mtime +14 )
 
 while IFS= read -r line
 do
-  echo "deleting file: $line"
-  rm -rf $line
+  echo "zip file: $line"
+  zip [ $line.zip ] 
 done <<< $FILES
